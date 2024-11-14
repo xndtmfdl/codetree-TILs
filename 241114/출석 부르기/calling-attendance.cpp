@@ -12,6 +12,6 @@ int main() {
     else if(a==3)
         cout << "Paul";
     else 
-        cout << " Vacancy";
+        cout << "Vacancy";
     return 0;
 }
