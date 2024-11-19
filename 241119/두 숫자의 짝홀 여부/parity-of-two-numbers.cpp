@@ -6,11 +6,11 @@ int main() {
     int a, b;
     cin >> a >> b;
     if (a%2==0)
-        cout << "even";
+        cout << "even\n";
     else
-        cout << "odd";
+        cout << "odd\n";
     if(b%2==0)
-        cout << "even";
+        cout << "even\n";
     else 
         cout << "odd";
     return 0;
