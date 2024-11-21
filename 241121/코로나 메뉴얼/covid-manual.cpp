@@ -16,6 +16,6 @@ int main() {
     if(emergency>=2)
         cout << "E";
     else 
-        cout << "n";
+        cout << "N";
     return 0;
 }
