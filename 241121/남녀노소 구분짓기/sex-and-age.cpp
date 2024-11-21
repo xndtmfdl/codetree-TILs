@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // 여기에 코드를 작성해주세요.
+    int a, b;
+    cin >> a >> b;
+    if(a==0) {
+        if(b>=19)
+            cout << "MAN";
+        else   
+            cout << "WOMAN";
+    }
+    else {
+        if(b>=19)
+            cout << "BOY";
+        else
+            cout << "GIRL";
+    }
+    return 0;
+}
