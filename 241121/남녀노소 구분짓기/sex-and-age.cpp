@@ -9,11 +9,11 @@ int main() {
         if(b>=19)
             cout << "MAN";
         else   
-            cout << "WOMAN";
+            cout << "BOY";
     }
     else {
         if(b>=19)
-            cout << "BOY";
+            cout << "WOMAN";
         else
             cout << "GIRL";
     }
