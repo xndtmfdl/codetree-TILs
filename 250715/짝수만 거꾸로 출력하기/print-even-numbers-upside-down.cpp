@@ -1,18 +1,21 @@
 #include <iostream>
 using namespace std;
 
+void printEvenReverse(int n) {
+    if (n == 0) return;
+
+    int x;
+    cin >> x;
+    printEvenReverse(n - 1);  // 먼저 다음 입력으로 재귀 들어감
+
+    if (x % 2 == 0) {
+        cout << x << " ";  // 재귀가 돌아올 때 출력하므로 역순
+    }
+}
+
 int main() {
-    // Please write your code here.
     int n;
     cin >> n;
-    int arr[n]={0};
-    for(int i=0; i<n; i++) {
-        cin >> arr[i];
-    }
-    for(int i=n-1; i>=0; i--) {
-        if(arr[i]%2==0 || arr[i]==0) {
-            cout << arr[i] << " ";
-        }
-    }
+    printEvenReverse(n);
     return 0;
 }
