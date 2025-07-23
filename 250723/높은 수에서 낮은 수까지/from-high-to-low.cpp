@@ -15,5 +15,8 @@ int main() {
             cout << i << " ";
         }
     }
+    else {
+        cout << a;
+    }
     return 0;
 }
