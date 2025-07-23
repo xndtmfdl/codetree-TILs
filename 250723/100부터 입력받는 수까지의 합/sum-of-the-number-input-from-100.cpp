@@ -8,6 +8,6 @@ int main() {
     for(int i=n; i<=100; i++) {
         sum+=i;
     }
-    cout << sum;''
+    cout << sum;
     return 0;
 }
