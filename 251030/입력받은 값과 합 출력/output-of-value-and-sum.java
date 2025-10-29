@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CodeTree {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,4 +13,3 @@ public class CodeTree {
 	}
 
 }
-a
